@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How many fingers?</title>
+  </head>
+  <body>
+    <p>How many fingers are you holding up?</p>
+    <p>
+      <select id="myNumber">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <button id="checkText">Guess!</button>
+    </p>
+    <script type="text/javascript">
+      document.getElementById("checkText").onclick = function () {
+        var myInput = document.getElementById("myNumber").value;
+        var gotIt = false;
+        var count = 1;
+        while (gotIt == false) {
+          var guess = Math.floor(Math.random() * 10 + 1);
+          if (guess == myInput) {
+            //computer is correct
+            gotIt = true;
+            alert(
+              "Got it! It was a " +
+                guess +
+                ". It took me " +
+                count +
+                " guesses."
+            );
+          } else {
+            //computer is wrong
+            count++;
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
