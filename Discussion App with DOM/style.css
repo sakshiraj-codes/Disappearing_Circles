@@ -1,0 +1,40 @@
+.title
+{
+  background-color: darkcyan;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.container
+{
+  display: flex;
+  height: 100%;
+}
+
+.leftPane
+{
+  background-color:rgba(128, 128, 128, 0.288);
+  flex: 1;
+}
+
+.rightPane
+{
+  background-color:rgba(128, 128, 128, 0.068);
+  flex: 1;
+}
+
+.leftHeader
+{
+  display: flex; 
+  justify-content: space-between;
+}
+
+
+.question
+{
+  background-color: rgba(128, 208, 240, 0.541);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
