@@ -1,0 +1,32 @@
+h1{
+  font-size: 50;
+  padding-top: 40;
+}
+div{
+  text-align: center;
+  margin: 100px;
+  
+  }
+#count{
+  font-size: 50px;
+}
+#decrementBtn{
+  font-size: 30;
+  background-color:red;
+  color:white;
+  margin-bottom: 40;
+}
+#resetBtn{
+  font-size: 30;
+  background-color: black;
+  color: white;
+  margin-bottom: 40;
+
+}
+#incrementBtn{
+  font-size: 30;
+  background-color: green;
+  color: white;
+  margin-bottom: 40;
+  
+}
