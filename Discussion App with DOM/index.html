@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Discussion app</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="title">
+      <h2>Discussion App</h2>
+    </div>
+    <div class="container">
+      <div class="leftPane">
+        <div class="leftHeader">
+          <button id="newQuestion">New question</button>
+          <input id="search" placeholder="Search"/>
+        </div>
+        <div id="questionListContainer">
+
+        </div>
+      </div>
+      <div class="rightPane">
+        <div class="questionContainer" id="questionContainer">
+          <input id="questionTitle" placeholder="enter question title"/>
+          <textarea id="questionDescription" placeholder="enter question"></textarea>
+          <button id="askQuestion">Ask question</button>
+        </div>
+        <div id="questionDisplay">
+
+        </div>
+        <div id="answerFormContainer" style="display:none;">
+          <input placeholder="Enter Name" id="nameCommentator"/>
+          <input placeholder="Enter Answer" id="answerCommentator"/>
+          <button id="submitAnswer">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
