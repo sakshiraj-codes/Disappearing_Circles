@@ -1,0 +1,10 @@
+textarea{
+  width:100%;
+  line-height: 20px;
+}
+#output{
+  background-color: black;
+}
+select{
+  display: inline;
+}
