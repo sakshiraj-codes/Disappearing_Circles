@@ -1,0 +1,37 @@
+.wrapper{
+    display : flex
+}
+
+.task-list{
+    flex:6
+}
+
+.task-entry{
+    flex:6
+}
+
+.singleTask{
+    width : 50%
+}
+ 
+.taskInfo{
+    display: inline-block;
+    flex : 10
+}
+
+.complete{
+    text-decoration: line-through
+}
+
+.markAsCompleted{
+    display: inline-block;
+    position: absolute;
+    right: 55%;
+}
+
+.deleteTask{
+    display: inline-block;
+    position: absolute;
+    right: 50%;
+    
+}
